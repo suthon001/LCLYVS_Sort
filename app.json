@@ -1,0 +1,37 @@
+{
+  "id": "2f8d6ff7-41ff-42ec-89b7-ac283ba568f3",
+  "name": "Thai Localized Sorting",
+  "publisher": "Yokogawa Votiva Solutions Co., Ltd.",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "Sorting Localized",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "https://www.votivasoft.com/",
+  "logo": "./YVS-logo-01.jpg",
+  "dependencies": [
+    {
+      "id": "c80e25ac-8f80-4d65-85b9-211b292609b8",
+      "publisher": "Yokogawa Votiva Solutions Co., Ltd.",
+      "name": "Thai Localized",
+      "version": "24.0.2.11"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "24.0.0.0",
+  "target": "Cloud",
+  "idRanges": [
+    {
+      "from": 80200,
+      "to": 80300
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "13.0"
+}
