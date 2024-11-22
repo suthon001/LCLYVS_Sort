@@ -9,7 +9,7 @@ pageextension 80265 "YVS ApplyCustEntries2" extends "Apply Customer Entries"
         {
             Visible = true;
         }
-        //  moveafter("Document No."; "External Document No.")
+        moveafter("Document No."; "External Document No.")
 
     }
 
