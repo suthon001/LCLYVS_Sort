@@ -5,6 +5,47 @@ pageextension 80236 "YVS Sales Order Subpage Sort" extends "Sales Order Subform"
 {
     layout
     {
+        modify("Description 2")
+        {
+            Visible = true;
+        }
+
+        modify("Tax Group Code")
+        {
+            Visible = false;
+        }
+        modify("Tax Area Code")
+        {
+            Visible = false;
+        }
+        modify("Qty. to Assemble to Order")
+        {
+            Visible = false;
+        }
+        modify("Qty. to Assign")
+        {
+            Visible = false;
+        }
+        modify("Qty. Assigned")
+        {
+            Visible = false;
+        }
+        modify("Gen. Bus. Posting Group")
+        {
+            Visible = true;
+        }
+        modify("VAT Bus. Posting Group")
+        {
+            Visible = true;
+        }
+        modify("Gen. Prod. Posting Group")
+        {
+            Visible = true;
+        }
+        modify("VAT Prod. Posting Group")
+        {
+            Visible = true;
+        }
         moveafter(Type; "No.", Description, "Description 2", "Location Code", Quantity,
         "Reserved Quantity", "Unit of Measure Code", "Unit Price", "Line Discount %", "Line Discount Amount", "Line Amount",
         "Qty. to Ship", "Quantity Shipped", "Quantity Invoiced", "YVS Qty. to Cancel", "Outstanding Quantity", "Planned Shipment Date", "Shipment Date", "Shortcut Dimension 1 Code", "Shortcut Dimension 2 Code",

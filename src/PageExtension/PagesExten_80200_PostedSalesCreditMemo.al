@@ -5,6 +5,15 @@ pageextension 80200 "YVS Posted Sales Credit Sort " extends "Posted Sales Credit
 {
     layout
     {
+        modify("VAT Registration No.")
+        {
+            Visible = true;
+        }
+        moveafter("VAT Branch Code"; "VAT Registration No.")
+        modify("No.")
+        {
+            Visible = true;
+        }
         moveafter("External Document No."; "Salesperson Code", "Shortcut Dimension 1 Code", "Shortcut Dimension 2 Code")
 
     }

@@ -5,7 +5,7 @@ pageextension 80233 "YVS Purch. Receipt Lines Sort" extends "Purch. Receipt Line
 {
     layout
     {
-
+        modify("Order No.") { Visible = true; }
         moveafter("Document No."; "Order No.")
     }
 

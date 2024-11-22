@@ -7,6 +7,10 @@ pageextension 80248 "YVS Sales Creidt Lists Sort" extends "Sales Credit Memos"
     layout
     {
 
+        modify(Status)
+        {
+            Visible = true;
+        }
         moveafter("No."; Status)
     }
 }

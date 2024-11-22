@@ -5,7 +5,10 @@ pageextension 80252 "YVS P Return Order Sub. Sort" extends "Purchase Return Orde
 {
     layout
     {
-
+        modify("Bin Code")
+        {
+            Visible = true;
+        }
         moveafter("Location Code"; "Bin Code")
     }
 

@@ -5,7 +5,10 @@ pageextension 80210 "YVS ChartOfAccount Sorting" extends "Chart of Accounts"
 {
     layout
     {
-
+        modify("Direct Posting")
+        {
+            Visible = true;
+        }
         moveafter(Name; "Direct Posting", Blocked)
 
     }

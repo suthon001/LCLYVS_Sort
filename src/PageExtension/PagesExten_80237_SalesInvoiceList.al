@@ -5,7 +5,10 @@ pageextension 80237 "YVS Sales Invoice Lists Sort" extends "Sales Invoice List"
 {
     layout
     {
-
+        modify(Status)
+        {
+            Visible = true;
+        }
         moveafter("No."; Status)
     }
 }

@@ -5,6 +5,20 @@ pageextension 80230 "YVS Posted Sales Invoice Sort" extends "Posted Sales Invoic
 {
     layout
     {
+        modify("VAT Registration No.")
+        {
+            Visible = true;
+        }
+        modify("No.")
+        {
+            Visible = true;
+            Importance = Promoted;
+
+        }
+        modify("Posting Date")
+        {
+            Visible = true;
+        }
 
         moveafter("VAT Branch Code"; "VAT Registration No.")
 
