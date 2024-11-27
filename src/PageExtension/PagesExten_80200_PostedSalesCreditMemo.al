@@ -9,7 +9,7 @@ pageextension 80200 "YVS Posted Sales Credit Sort " extends "Posted Sales Credit
         {
             Visible = true;
         }
-        moveafter("VAT Branch Code"; "VAT Registration No.")
+        moveafter("YVS VAT Branch Code"; "VAT Registration No.")
         modify("No.")
         {
             Visible = true;

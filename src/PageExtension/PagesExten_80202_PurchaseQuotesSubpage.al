@@ -28,7 +28,7 @@ pageextension 80202 "YVS Purchase Quotes Sub Sort" extends "Purchase Quote Subfo
         modify("Gen. Bus. Posting Group") { Visible = false; }
         modify("Gen. Prod. Posting Group") { Visible = false; }
         moveafter(Description; "Description 2")
-        movefirst(Control1; Type, "No.", Description, "Description 2", "Location Code", "Bin Code", "Gen. Bus. Posting Group", "Gen. Prod. Posting Group", "VAT Bus. Posting Group", "VAT Prod. Posting Group", Quantity,
+        movefirst(Control1; Type, "No.", Description, "Description 2", "Location Code", "YVS Bin Code", "Gen. Bus. Posting Group", "Gen. Prod. Posting Group", "VAT Bus. Posting Group", "VAT Prod. Posting Group", Quantity,
         "YVS Qty. to Cancel", "Unit of Measure Code", "Direct Unit Cost", "Line Discount %", "Line Discount Amount", "Line Amount",
          "Shortcut Dimension 1 Code", "Shortcut Dimension 2 Code", ShortcutDimCode3, ShortcutDimCode4, ShortcutDimCode5, ShortcutDimCode6, ShortcutDimCode7, ShortcutDimCode8)
     }

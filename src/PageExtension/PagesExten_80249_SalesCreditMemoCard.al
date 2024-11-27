@@ -19,7 +19,7 @@ pageextension 80249 "YVS Sales Credit Card Sort" extends "Sales Credit Memo"
             Visible = true;
             Importance = Promoted;
         }
-        moveafter("VAT Branch Code"; "VAT Registration No.")
+        moveafter("YVS VAT Branch Code"; "VAT Registration No.")
 
         moveafter("External Document No."; "Salesperson Code", "Shortcut Dimension 1 Code", "Shortcut Dimension 2 Code")
 

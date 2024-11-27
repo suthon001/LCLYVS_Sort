@@ -42,7 +42,7 @@ pageextension 80239 "YVS Sales Invoice Subpage Sort" extends "Sales Invoice Subf
 
         moveafter(Description; "Description 2")
         moveafter("Location Code"; "Gen. Bus. Posting Group", "Gen. Prod. Posting Group", "VAT Bus. Posting Group", "VAT Prod. Posting Group",
-        "WHT Business Posting Group", "WHT Product Posting Group")
+        "YVS WHT Business Posting Group", "YVS WHT Product Posting Group")
         moveafter(Quantity; "Depr. until FA Posting Date")
     }
 

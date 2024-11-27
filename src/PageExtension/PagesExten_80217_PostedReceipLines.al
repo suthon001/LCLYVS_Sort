@@ -25,7 +25,7 @@ pageextension 80217 "YVS PostedReceiptLines Sort" extends "Posted Purchase Rcpt.
         {
             Visible = true;
         }
-        moveafter(Type; "No.", Description, "Description 2", "Gen. Bus. Posting Group", "Gen. Prod. Posting Group", "VAT Bus. Posting Group", "VAT Prod. Posting Group", "Location Code", Quantity, "Unit of Measure Code", "Quantity Invoiced", "Qty. Rcd. Not Invoiced", "Planned Receipt Date",
+        moveafter(Type; "No.", Description, "Description 2", "YVS Gen. Bus. Posting Group", "YVS Gen. Prod. Posting Group", "YVS VAT Bus. Posting Group", "YVS VAT Prod. Posting Group", "Location Code", Quantity, "Unit of Measure Code", "Quantity Invoiced", "Qty. Rcd. Not Invoiced", "Planned Receipt Date",
         "Expected Receipt Date", "Order Date", "Shortcut Dimension 1 Code", "Shortcut Dimension 2 Code")
 
 

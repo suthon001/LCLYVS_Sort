@@ -37,7 +37,7 @@ pageextension 80245 "YVS Purchase Invoice Sub Sort" extends "Purch. Invoice Subf
             Visible = false;
         }
         moveafter(Description; "Description 2")
-        moveafter("Location Code"; "Gen. Bus. Posting Group", "Gen. Prod. Posting Group", "VAT Bus. Posting Group", "VAT Prod. Posting Group", "WHT Business Posting Group", "WHT Product Posting Group")
+        moveafter("Location Code"; "Gen. Bus. Posting Group", "Gen. Prod. Posting Group", "VAT Bus. Posting Group", "VAT Prod. Posting Group", "YVS WHT Business Posting Group", "YVS WHT Product Posting Group")
 
     }
 

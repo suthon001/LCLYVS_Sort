@@ -22,7 +22,7 @@ pageextension 80216 "YVS PostedReceiptList Sort" extends "Posted Purchase Receip
         {
             Visible = false;
         }
-        moveafter("no."; "Posting Date", "Document Date", "Expected Receipt Date", "Order No.", "Vendor Order No.", "Vendor Shipment No.", "YVS Vendor Invoice No.",
-         "Buy-from Vendor No.", "Pay-to Vendor No.", "Buy-from Vendor Name", "Pay-to Name", "Currency Code", "Your Reference", "Head Office", "VAT Registration No.")
+        moveafter("no."; "Posting Date", "Document Date", "YVS Expected Receipt Date", "YVS Order No.", "YVS Vendor Order No.", "YVS Vendor Shipment No.", "YVS Vendor Invoice No.",
+         "Buy-from Vendor No.", "Pay-to Vendor No.", "Buy-from Vendor Name", "Pay-to Name", "YVS Currency Code", "YVS Your Reference", "YVS Head Office", "YVS VAT Registration No.")
     }
 }

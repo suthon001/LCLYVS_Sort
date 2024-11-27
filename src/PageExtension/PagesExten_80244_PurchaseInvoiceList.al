@@ -30,7 +30,7 @@ pageextension 80244 "YVS Purchase In Lists Sort" extends "Purchase Invoices"
             Visible = true;
         }
         moveafter("No."; Status, "Posting Date", "Document Date", "Buy-from Vendor No.", "Pay-to Vendor No.", "Buy-from Vendor Name", "Pay-to Name",
-        "Posting Description", Amount, "Amount Including VAT", "Location Code", "Purchaser Code", "Assigned User ID", "Head Office", "VAT Branch Code", "VAT Registration No.")
+        "YVS Posting Description", Amount, "YVS Amount Including VAT", "Location Code", "Purchaser Code", "Assigned User ID", "YVS Head Office", "YVS VAT Branch Code", "YVS VAT Registration No.")
 
 
     }

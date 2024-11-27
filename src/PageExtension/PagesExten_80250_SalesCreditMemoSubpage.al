@@ -44,7 +44,7 @@ pageextension 80250 "YVS Sales Credit Memo Sub Sort" extends "Sales Cr. Memo Sub
         }
         moveafter(Description; "Description 2", "Location Code")
         moveafter("Location Code"; "Gen. Bus. Posting Group", "Gen. Prod. Posting Group", "VAT Bus. Posting Group", "VAT Prod. Posting Group",
-        "WHT Business Posting Group", "WHT Product Posting Group")
+        "YVS WHT Business Posting Group", "YVS WHT Product Posting Group")
 
     }
 

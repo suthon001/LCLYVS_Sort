@@ -10,7 +10,7 @@ pageextension 80203 "YVS VatEntry Sort" extends "VAT Entries"
         {
             Visible = true;
         }
-        moveafter("VAT Branch Code"; "VAT Registration No.")
+        moveafter("YVS VAT Branch Code"; "VAT Registration No.")
     }
 
 }

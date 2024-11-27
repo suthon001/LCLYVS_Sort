@@ -34,7 +34,7 @@ pageextension 80206 "YVS Sales Quotes Lists Sort" extends "Sales Quotes"
             Visible = true;
         }
         moveafter("No."; Status, "Sell-to Customer No.", "Bill-to Customer No.", "Sell-to Customer Name", "External Document No.", "Posting Date", "Document Date", "Due Date",
-         "Quote Valid Until Date", Amount, "Amount Including VAT", "Head Office", "VAT Branch Code", "VAT Registration No.", "Sales Order No.")
+         "Quote Valid Until Date", Amount, "YVS Amount Including VAT", "YVS Head Office", "YVS VAT Branch Code", "YVS VAT Registration No.", "YVS Sales Order No.")
         moveafter("Quote Valid Until Date"; "Your Reference")
 
     }

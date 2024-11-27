@@ -9,7 +9,7 @@ pageextension 80210 "YVS ChartOfAccount Sorting" extends "Chart of Accounts"
         {
             Visible = true;
         }
-        moveafter(Name; "Direct Posting", Blocked)
+        moveafter(Name; "Direct Posting", "YVS Blocked")
 
     }
 

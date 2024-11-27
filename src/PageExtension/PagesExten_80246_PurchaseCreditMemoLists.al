@@ -48,6 +48,6 @@ pageextension 80246 "YVS Purchase Credit Memos Sort" extends "Purchase Credit Me
             Visible = true;
         }
         moveafter("No."; Status, "Posting Date", "Document Date", "Buy-from Vendor No.", "Buy-from Vendor Name", "Pay-to Vendor No.", "Pay-to Name",
-         "Posting Description", Amount, "Amount Including VAT", "Due Date", "Currency Code", "Head Office", "VAT Branch Code", "VAT Registration No.")
+         "YVS Posting Description", Amount, "YVS Amount Including VAT", "Due Date", "Currency Code", "YVS Head Office", "YVS VAT Branch Code", "YVS VAT Registration No.")
     }
 }

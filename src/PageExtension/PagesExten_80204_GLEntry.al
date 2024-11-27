@@ -25,7 +25,7 @@ pageextension 80204 "YVS GLEntry Sort" extends "General Ledger Entries"
         {
             Visible = true;
         }
-        moveafter("Journal Description"; "Gen. Bus. Posting Group", "Gen. Prod. Posting Group", "VAT Bus. Posting Group", "VAT Prod. Posting Group")
+        moveafter("YVS Journal Description"; "Gen. Bus. Posting Group", "Gen. Prod. Posting Group", "VAT Bus. Posting Group", "VAT Prod. Posting Group")
     }
 
 }

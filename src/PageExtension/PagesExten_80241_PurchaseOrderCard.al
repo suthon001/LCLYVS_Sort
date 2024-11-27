@@ -112,7 +112,7 @@ pageextension 80241 "YVS Purchase Order Card Sort" extends "Purchase Order"
         {
             Visible = true;
         }
-        moveafter("Posting DateVYS"; "Vendor Invoice No.", "Vendor Shipment No.", "Document Date")
+        moveafter("YVS Posting DateVYS"; "Vendor Invoice No.", "Vendor Shipment No.", "Document Date")
         moveafter("Purchaser Code"; "Currency Code")
         moveafter("Currency Code"; "Shortcut Dimension 1 Code", "Shortcut Dimension 2 Code")
         movebefore(Status; "Expected Receipt Date", "Location Code")

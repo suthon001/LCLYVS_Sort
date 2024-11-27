@@ -40,7 +40,7 @@ pageextension 80238 "YVS Sales Invoice Card Sort" extends "Sales Invoice"
         {
             Visible = true;
         }
-        moveafter("VAT Branch Code"; "VAT Registration No.", "Posting Description")
+        moveafter("YVS VAT Branch Code"; "VAT Registration No.", "Posting Description")
 
     }
 }

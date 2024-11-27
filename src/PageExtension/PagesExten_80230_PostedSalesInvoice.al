@@ -20,7 +20,7 @@ pageextension 80230 "YVS Posted Sales Invoice Sort" extends "Posted Sales Invoic
             Visible = true;
         }
 
-        moveafter("VAT Branch Code"; "VAT Registration No.")
+        moveafter("YVS VAT Branch Code"; "VAT Registration No.")
 
     }
 }
